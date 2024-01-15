@@ -1,10 +1,25 @@
 
 
-@media screen and (max-width: 600px) {
-    .container{
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 5px;
+    }
+    .container, .left-container{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+    }
+    .third-left-container{
+        width: 100%;
+      }
+      .third-right-container{
+        width: 100%;
+      }
+    .left-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
     }
      .right-container{
         display: flex;
@@ -19,8 +34,39 @@
         justify-content: center;
     }
     .banner-container, .input{
+        display: flex;
       flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+
     }
-    
+    .third-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .third-right-container, img{
+        width: 100%;
+        height: 100%;
+    }
+    .forth-section{
+        width: 100%;
+    }
+    .img-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .sea-img{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
 
 }
