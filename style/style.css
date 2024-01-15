@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+  font-family: 'Mulish', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+/* header style start */
+.container{
+    max-width: 1250px;
+    min-height: 40px;
+    margin: 40px auto;
+    display: flex;
+    
+
+}
+.left-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.left-container, h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.rours{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.right-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Mulish;
+}
+.right-container, a{
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.right-container, a:first-child{
+    color: #FF5400;
+}
