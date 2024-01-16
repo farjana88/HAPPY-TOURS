@@ -45,9 +45,12 @@
         display: flex;
         flex-direction: column;
     }
-    .third-right-container, img{
+    .third-right-container{
         width: 100%;
         height: 100%;
+    }
+    .third-right-container, img{
+        margin-left: 0px;
     }
     .forth-section{
         width: 100%;
@@ -56,7 +59,7 @@
         display: flex;
         flex-direction: column;
     }
-    .grid-container{
+    .grid-container, .eight-container{
         display: flex;
         flex-direction: column;
     }
@@ -66,6 +69,20 @@
         text-align: center;
         display: flex;
         flex-direction: column;
+    }
+    
+    .third-left-container, ul, li{
+        margin-left: 0px;
+    }
+   
+    .fifth-section, p{
+        text-align: left;
+    }
+    .card-container, p{
+        margin-left: -20px;
+    }
+    .fifth-section, p{
+        width: 550px;
     }
 
 
